@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Computer Force - Home</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #1E2A38; color: white; padding: 10px; }
+    header { display: flex; justify-content: space-between; align-items: center; }
+    header img { height: 40px; }
+    header input[type=text] { width: 40%; padding: 5px; }
+    nav { color: white; }
+    .cta { background: #0073e6; color: white; text-align: center; padding: 30px; font-size: 1.5em; }
+    main { padding: 20px; }
+    .categories { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .categories div { text-align: center; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
+    .categories img { width: 100%; height: 150px; object-fit: cover; }
+    footer { text-align: center; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/Images/Logo.webp" alt="Computer Force Logo">
+    <input type="text" placeholder="Search products...">
+    <nav>
+      <a href="#">Login/Signup</a> | <a href="#">🛒</a>
+    </nav>
+  </header>
+
+  <div class="cta"><p style="color:burlywood;">Connect with our wide range of tech</p></div>
+
+  <main>
+    <h1>Featured Categories</h1>
+    <div class="categories">
+      <div><h2>Desktop Computers</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/desktop.jpeg" alt="Desktops"></a></div>
+      <div><h2>Laptops</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/laptops.jpeg" alt="Laptops"></a></div>
+      <div><h2>Tablets</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/tablets.jpeg" alt="Tablets"></a></div>
+      <div><h2>Printers</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/printer.jpeg" alt="Printers"></a></div>
+      <div><h2>Software</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/software.jpeg" alt="Software"></a></div>
+      <div><h2>Storage</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/Storage.jpeg" alt="Storage"></a></div>
+      <div><h2>Keyboard/mouse</h2><a href="/ProductsPage/Productpage.html"><img src="/Images/keyboard.jpeg" alt="Keyboard/Mouse"></a></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 DR | Opening Hours: Mon–Fri 9am–5pm</p>
+  </footer>
+</body>
+</html>
